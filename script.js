@@ -1,5 +1,5 @@
-const THREE = require('./libs/three.module');
-const ARButton = require('./libs/ARButton');
+import * as THREE from './libs/three.module.js';
+import { ARButton } from './libs/ARButton.js';
 
 let container;
 let camera, scene, renderer;
